@@ -23,7 +23,9 @@ import { SensorsOverviewModule } from './pages/sensors-overview/sensors-overview
 
     ],
     providers: [],
-    bootstrap: [AppComponent]
+    bootstrap: [
+        AppComponent
+    ]
 })
 export class AppModule {
 }
