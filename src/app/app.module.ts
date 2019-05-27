@@ -8,6 +8,7 @@ import { MenuItem } from 'primeng/api';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NaviComponent } from './navi/navi.component';
 import { SensorsOverviewModule } from './pages/sensors-overview/sensors-overview.module';
+import { ComponentModule } from './pages/component/component.module';
 
 @NgModule({
     declarations: [
@@ -20,6 +21,7 @@ import { SensorsOverviewModule } from './pages/sensors-overview/sensors-overview
         AccordionModule,
         BrowserAnimationsModule,
         SensorsOverviewModule,
+        ComponentModule,
 
     ],
     providers: [],
